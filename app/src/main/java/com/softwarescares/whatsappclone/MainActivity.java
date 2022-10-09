@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
                 verificationId = verification;
                 Send.setText("Verify Code");
+                startActivity(new Intent(getApplicationContext(), MainPageActivity.class));
             }
         };
     }
